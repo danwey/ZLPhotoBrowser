@@ -218,7 +218,13 @@
 		FD6446BE225AEF42003724CF /* PhotoBrowser */ = {
 			isa = PBXGroup;
 			children = (
-				FD6446D6225AEF42003724CF /* Animation */,
+				FD6446E5225AEF42003724CF /* ZLInteractiveAnimateProtocol.h */,
+				FD6446C2225AEF42003724CF /* ZLInteractiveTrasition.h */,
+				FD6446E3225AEF42003724CF /* ZLInteractiveTrasition.m */,
+				FD6446EE225AEF42003724CF /* ZLAnimateTransition.h */,
+				FD6446D2225AEF42003724CF /* ZLAnimateTransition.m */,
+				FD6446E1225AEF42003724CF /* ZLPullDownInteractiveTransition.h */,
+				FD6446F7225AEF42003724CF /* ZLPullDownInteractiveTransition.m */,
 				FD6446F9225AEF42003724CF /* NSBundle+ZLPhotoBrowser.h */,
 				FD6446E0225AEF42003724CF /* NSBundle+ZLPhotoBrowser.m */,
 				FD6446F5225AEF42003724CF /* resource */,
@@ -245,7 +251,14 @@
 				FD6446ED225AEF42003724CF /* ZLEditViewController.m */,
 				FD6446F3225AEF42003724CF /* ZLForceTouchPreviewController.h */,
 				FD6446CD225AEF42003724CF /* ZLForceTouchPreviewController.m */,
-				FD6446F2225AEF42003724CF /* ZLImageEditTools */,
+				FD6446EC225AEF42003724CF /* ZLImageEditTool.h */,
+				FD6446C6225AEF42003724CF /* ZLImageEditTool.m */,
+				FD6446CB225AEF42003724CF /* ZLDrawItem.h */,
+				FD6446E7225AEF42003724CF /* ZLDrawItem.m */,
+				FD6446FA225AEF42003724CF /* ZLBrushBoardImageView.h */,
+				FD6446DE225AEF42003724CF /* ZLBrushBoardImageView.m */,
+				FD6446C8225AEF42003724CF /* ZLClipItem.h */,
+				FD6446E9225AEF42003724CF /* ZLClipItem.m */,
 				FD6446D0225AEF42003724CF /* ZLNoAuthorityViewController.h */,
 				FD6446F1225AEF42003724CF /* ZLNoAuthorityViewController.m */,
 				FD6446DB225AEF42003724CF /* ZLPhotoActionSheet.h */,
@@ -271,35 +284,6 @@
 				FD6446FB225AEF42003724CF /* ZLThumbnailViewController.m */,
 			);
 			path = PhotoBrowser;
-			sourceTree = "<group>";
-		};
-		FD6446D6225AEF42003724CF /* Animation */ = {
-			isa = PBXGroup;
-			children = (
-				FD6446E5225AEF42003724CF /* ZLInteractiveAnimateProtocol.h */,
-				FD6446C2225AEF42003724CF /* ZLInteractiveTrasition.h */,
-				FD6446E3225AEF42003724CF /* ZLInteractiveTrasition.m */,
-				FD6446EE225AEF42003724CF /* ZLAnimateTransition.h */,
-				FD6446D2225AEF42003724CF /* ZLAnimateTransition.m */,
-				FD6446E1225AEF42003724CF /* ZLPullDownInteractiveTransition.h */,
-				FD6446F7225AEF42003724CF /* ZLPullDownInteractiveTransition.m */,
-			);
-			path = Animation;
-			sourceTree = "<group>";
-		};
-		FD6446F2225AEF42003724CF /* ZLImageEditTools */ = {
-			isa = PBXGroup;
-			children = (
-				FD6446EC225AEF42003724CF /* ZLImageEditTool.h */,
-				FD6446C6225AEF42003724CF /* ZLImageEditTool.m */,
-				FD6446CB225AEF42003724CF /* ZLDrawItem.h */,
-				FD6446E7225AEF42003724CF /* ZLDrawItem.m */,
-				FD6446FA225AEF42003724CF /* ZLBrushBoardImageView.h */,
-				FD6446DE225AEF42003724CF /* ZLBrushBoardImageView.m */,
-				FD6446C8225AEF42003724CF /* ZLClipItem.h */,
-				FD6446E9225AEF42003724CF /* ZLClipItem.m */,
-			);
-			path = ZLImageEditTools;
 			sourceTree = "<group>";
 		};
 		FD6446F5225AEF42003724CF /* resource */ = {
